@@ -23,6 +23,7 @@
 ```
 
 </div>
+
 # Models Structure
 ![App Screenshot](https://github.com/rraanggaaaa/CRUD_Vania_Framework.dart/blob/master/storage/screenshot/models.png)
 # Migrations Structure
