@@ -14,20 +14,51 @@
 
 </div>
 
+  
+```ls
+<!-- ciao -->
+
+`First, lets build some Database table models, Migrations, Seeder (for Dummy data first push to database), and some Controllers for CRUD and communicate to Database (i use Mysql database)`
+
+```
+
+</div>
 # Models Structure
 ![App Screenshot](https://github.com/rraanggaaaa/CRUD_Vania_Framework.dart/blob/master/storage/screenshot/models.png)
-# Migration Structure
+# Migrations Structure
 ![App Screenshot](https://github.com/rraanggaaaa/CRUD_Vania_Framework.dart/blob/master/storage/screenshot/migrations.png)
 # Seeder Structure
 ![App Screenshot](https://github.com/rraanggaaaa/CRUD_Vania_Framework.dart/blob/master/storage/screenshot/seeders.png)
 # Final Database
 ![App Screenshot](https://github.com/rraanggaaaa/CRUD_Vania_Framework.dart/blob/master/storage/screenshot/database.png)
-# Home
-![App Screenshot](https://github.com/rraanggaaaa/Flutter_Responsi/blob/master/Home.png)
-# Profile
-![App Screenshot](https://github.com/rraanggaaaa/Flutter_Responsi/blob/master/Akun.png)
-# Edit Profile
-![App Screenshot](https://github.com/rraanggaaaa/Flutter_Responsi/blob/master/EditProfile.png)
+# Controllers Structure
+![App Screenshot](https://github.com/rraanggaaaa/CRUD_Vania_Framework.dart/blob/master/storage/screenshot/controllers.png)
+
+<div>
+  
+```ls
+<!-- ciao -->
+
+`Postman Test, on this doc. this repo build CRUD of all the database structure that i build before. and use /{id} fro Read by ID, Put, and Delete that works properly`
+
+```
+
+</div>
+
+# Postman Read
+![App Screenshot](https://github.com/rraanggaaaa/CRUD_Vania_Framework.dart/blob/master/storage/screenshot/postman_read.png)
+# Postman Create
+![App Screenshot](https://github.com/rraanggaaaa/CRUD_Vania_Framework.dart/blob/master/storage/screenshot/postman_create.png)
+# Postman Read after Create
+![App Screenshot](https://github.com/rraanggaaaa/CRUD_Vania_Framework.dart/blob/master/storage/screenshot/postman_read_after.png)
+# Postman Update
+![App Screenshot](https://github.com/rraanggaaaa/CRUD_Vania_Framework.dart/blob/master/storage/screenshot/postman_update.png)
+# Postman Read after Update
+![App Screenshot](https://github.com/rraanggaaaa/CRUD_Vania_Framework.dart/blob/master/storage/screenshot/postman_read_after_update.png)
+# Postman Delete
+![App Screenshot](https://github.com/rraanggaaaa/CRUD_Vania_Framework.dart/blob/master/storage/screenshot/postman_delete.png)
+# Postman Read after Delete
+![App Screenshot](https://github.com/rraanggaaaa/CRUD_Vania_Framework.dart/blob/master/storage/screenshot/postman_read_after_delete.png)
 
 # Vania Dart backend framework
 
