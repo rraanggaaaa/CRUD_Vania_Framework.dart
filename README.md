@@ -15,13 +15,13 @@
 </div>
 
 # Models Structure
-![App Screenshot](https://github.com/rraanggaaaa/CRUD_Vania_Framework/storage/screenshot/blob/master/models.png)
+![App Screenshot](https://github.com/rraanggaaaa/CRUD_Vania_Framework.dart/blob/master/storage/screenshot/models.png)
 # Migration Structure
-![App Screenshot](https://github.com/rraanggaaaa/CRUD_Vania_Framework/storage/screenshot/blob/master/migrations.png)
+![App Screenshot](https://github.com/rraanggaaaa/CRUD_Vania_Framework.dart/blob/master/storage/screenshot/migrations.png)
 # Seeder Structure
-![App Screenshot](https://github.com/rraanggaaaa/CRUD_Vania_Framework/storage/screenshot/blob/master/seeders.png)
+![App Screenshot](https://github.com/rraanggaaaa/CRUD_Vania_Framework.dart/blob/master/storage/screenshot/seeders.png)
 # Final Database
-![App Screenshot](https://github.com/rraanggaaaa/CRUD_Vania_Framework/storage/screenshot/blob/master/database.png)
+![App Screenshot](https://github.com/rraanggaaaa/CRUD_Vania_Framework.dart/blob/master/storage/screenshot/database.png)
 # Home
 ![App Screenshot](https://github.com/rraanggaaaa/Flutter_Responsi/blob/master/Home.png)
 # Profile
