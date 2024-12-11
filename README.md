@@ -3,12 +3,8 @@
 ```ls
 <!-- ciao -->
 
-<<<<<<< HEAD
-`ciao, im # NPM: 5210411054
-=======
 `ciao, im
 # NPM: 5210411054
->>>>>>> 051fc166bdb1471a50c9ccd62ca94da4c50fd8f4
 
 # NAMA: DWI RANGGA OKTA ZUHDIYANTO
 
@@ -18,24 +14,6 @@
 
 </div>
 
-<<<<<<< HEAD
-<div>
-# Models Structure
-![App Screenshot](https://github.com/rraanggaaaa/CRUD_Vania_Framework/storage/screenshot/blob/master/models.png)
-# Migration Structure
-![App Screenshot](https://github.com/rraanggaaaa/CRUD_Vania_Framework/storage/screenshot/blob/master/migrations.png)
-# Seeder Structure
-![App Screenshot](https://github.com/rraanggaaaa/CRUD_Vania_Framework/storage/screenshot/blob/master/seeders.png)
-# Final Database
-![App Screenshot](https://github.com/rraanggaaaa/CRUD_Vania_Framework/storage/screenshot/blob/master/database.png)
-# Home
-![App Screenshot](https://github.com/rraanggaaaa/Flutter_Responsi/blob/master/Home.png)
-# Profile
-![App Screenshot](https://github.com/rraanggaaaa/Flutter_Responsi/blob/master/Akun.png)
-# Edit Profile
-![App Screenshot](https://github.com/rraanggaaaa/Flutter_Responsi/blob/master/EditProfile.png)
-</div>
-=======
   
 ```ls
 <!-- ciao -->
@@ -81,7 +59,6 @@
 ![App Screenshot](https://github.com/rraanggaaaa/CRUD_Vania_Framework.dart/blob/master/storage/screenshot/postman_delete.png)
 # Postman Read after Delete
 ![App Screenshot](https://github.com/rraanggaaaa/CRUD_Vania_Framework.dart/blob/master/storage/screenshot/postman_read_after_delete.png)
->>>>>>> 051fc166bdb1471a50c9ccd62ca94da4c50fd8f4
 
 # Vania Dart backend framework
 
