@@ -10,6 +10,8 @@ dependencies:
   vania: ^0.4.0
   intl: ^0.17.0
   mysql1: ^0.20.0
+  jwt_decoder: 2.0.1
+  flutter_dotenv: 5.2.1
 
 
 dev_dependencies:

@@ -1,3 +1,4 @@
+import 'package:paml_backend_vania/app/http/controllers/database/users_controller.dart';
 import 'package:vania/vania.dart';
 import 'package:paml_backend_vania/app/http/controllers/database/customers_controller.dart';
 import 'package:paml_backend_vania/app/http/controllers/database/orders_controller.dart';
@@ -5,6 +6,8 @@ import 'package:paml_backend_vania/app/http/controllers/database/orderitems_cont
 import 'package:paml_backend_vania/app/http/controllers/database/products_controller.dart';
 import 'package:paml_backend_vania/app/http/controllers/database/productnotes_controller.dart';
 import 'package:paml_backend_vania/app/http/controllers/database/vendors_controller.dart';
+import 'package:paml_backend_vania/app/http/controllers/auth_controller.dart';
+import 'package:paml_backend_vania/app/http/middleware/authenticate.dart';
 
 class ApiRoute implements Route {
   @override
@@ -18,6 +21,7 @@ class ApiRoute implements Route {
     final productsController = ProductController();
     final productNotesController = ProductnotesController();
     final vendorsController = VendorsController();
+    final usersController = UsersController();
 
     /// Customers CRUD
     Router.get("/customers", customersController.index);
@@ -58,7 +62,21 @@ class ApiRoute implements Route {
     Router.get("/vendors", vendorsController.index);
     Router.post("/vendors", vendorsController.create);
     Router.get("/vendors/{id}", vendorsController.show);
-    Router.put("/vendors/{id}",  vendorsController.update);
+    Router.put("/vendors/{id}", vendorsController.update);
     Router.delete("/vendors/{id}", vendorsController.destroy);
+
+    /// Public Routes
+    Router.group(() {
+      /// Login and Register
+      Router.post('register', authController.register);
+      Router.post('login', authController.login);
+      Router.get('me', authController.me);
+    }, prefix: 'auth');
+
+    /// User
+    Router.group(() {
+      Router.patch('update-password', usersController.updatePassword);
+      Router.get('', usersController.index);
+    }, prefix: 'user', middleware: [AuthenticateMiddleware()]);
   }
 }
