@@ -35,6 +35,21 @@
 # Controllers Structure
 ![App Screenshot](https://github.com/rraanggaaaa/CRUD_Vania_Framework.dart/blob/master/storage/screenshot/controllers.png)
 
+</div>
+
+  
+```ls
+<!-- ciao -->
+
+`Adding Authenticate for Register, Login, and Fetch data user with bearer token`
+
+```
+
+</div>
+
+# Models Structure
+![App Screenshot](https://github.com/rraanggaaaa/CRUD_Vania_Framework.dart/blob/master/storage/screenshot/database_auth.png)
+
 <div>
   
 ```ls
@@ -60,6 +75,12 @@
 ![App Screenshot](https://github.com/rraanggaaaa/CRUD_Vania_Framework.dart/blob/master/storage/screenshot/postman_delete.png)
 # Postman Read after Delete
 ![App Screenshot](https://github.com/rraanggaaaa/CRUD_Vania_Framework.dart/blob/master/storage/screenshot/postman_read_after_delete.png)
+# Postman Register
+![App Screenshot](https://github.com/rraanggaaaa/CRUD_Vania_Framework.dart/blob/master/storage/screenshot/register.png)
+# Postman Login
+![App Screenshot](https://github.com/rraanggaaaa/CRUD_Vania_Framework.dart/blob/master/storage/screenshot/login.png)
+# Postman Get Data From Bearer
+![App Screenshot](https://github.com/rraanggaaaa/CRUD_Vania_Framework.dart/blob/master/storage/screenshot/auth.png)
 
 # Vania Dart backend framework
 
